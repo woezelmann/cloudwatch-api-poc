@@ -24,7 +24,7 @@ public class ConnectorTest {
         AmazonCloudWatchClientBuilder standard = AmazonCloudWatchClientBuilder.standard();
         standard.setCredentials(new StaticCredentialsProvider(new BasicSessionCredentials(
                 "xxx",
-                "yyy+WY2hSLl",
+                "yyy",
                 "zzz"
         )));
 
